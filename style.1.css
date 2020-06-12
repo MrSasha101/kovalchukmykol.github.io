@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #323232;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: #fff;
+    color: #000;
+}
+.info{
+    color: blue;
+}
+.infoa{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-left:30px;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    margin: left;
+    width: 50px;
+    margin-left: 10px;
+    transform: rotate(-20deg);
+}
+.menu-items a{
+    font-family: 'Yeseva One', cursive;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.menu-items a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+.landing{
+    height: 700px;
+    background-image: url(images/landingbg.jpeg);
+width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.film{
+    width: 20%;
+    height: 500px;
+}
+.film img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.film img:hover{
+    transform: scale(1.1);
+}
+.text{
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    height: 800px;
+    background: #000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    background: #09a39e;
+    padding: 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: teal;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width:450px ;
+}
+.social__item{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition:all 1s;
+}
+.social__item:hover{
+    cursor: pointer;
+}
+.viber:hover{
+    border-color: rgb(224, 0, 224);
+    box-shadow: 0 0 20px rgb(224, 0, 224);
+    color:rgb(224, 0, 224);
+
+}
+.instagram:hover{
+    border-color:#bc2a8d;
+    box-shadow:0 0 20px #bc2a8d ;
+    color:#bc2a8d;
+}
+.vk:hover{
+    border-color: #3d5afe;
+    box-shadow: 0 0 20px #3d5afe;
+    color:#3d5afe;
+}
+.twitter:hover{
+    border-color: #00aced;
+    box-shadow: 0 0 20px #00aced;
+    color:#00aced;
+}
+.youtube:hover{
+    border-color: #dd4b39;
+    box-shadow: 0 0 20px #dd4b39;
+    color:#dd4b39;
+}
